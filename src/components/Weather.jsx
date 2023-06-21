@@ -47,7 +47,7 @@ function Weather() {
     let min = document.getElementById("min");
     let max = document.getElementById("max");
     let ask = document.getElementById("ask");
-    const apikey = import.meta.env.VITE_SOME_KEY;
+    const apikey = import.meta.env.VITE_SOME_VALUE
 
     if (ask.value === "") {
       alert("Please enter city name!");
